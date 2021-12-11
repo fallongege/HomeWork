@@ -8,6 +8,6 @@
 Encrypted the bucket using server_side_encryption with kms key
 
 ## Extra Bonus point
-Crreated an s3  backend to manage the state file. Encountered a liitle problem when creating the s3 backend. I Initially, I didn't know the s3 bucket to be used for the backend has to be existing before the backend can be created. 
+Crreated an s3  backend to manage the state file. Encountered a little problem when creating the s3 backend.Initially, I didn't know the s3 bucket to be used for the backend has to be existing before the backend can be created. 
 * Resolved the problem by searching online.
 
