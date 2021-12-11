@@ -1,0 +1,5 @@
+bucketname      = "chidobucketpractice"
+ami             = "ami-0ed9277fb7eb570c9"
+mykeypair       = ""
+myregion        = "us-east-1"
+myinstance_type = "t2.micro"

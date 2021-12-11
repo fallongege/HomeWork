@@ -1,21 +1,13 @@
-Please try and complete the following before next class:
-* clone this repo
-* create a new branch name it after your last name or if you are working as a team, the name of the team 
-* `git checkout -b <name of your branch`
-* create an a readme.md file explaining your difficulties and how you solved them
-
 ## Home Work
-* Create an S3 bucket
-* Create a role to access the bucket
-* write a bash script to send files to the bucket from /var/log/ directory from any instance or to send any file to S3 from an instance.
+* Created an S3 bucket
+* Created a private key for the s3 for the bucket
+* Created a role to access the bucket
+* Wrote a bash script to send files to the bucket from /var/log/ directory from any instance or to send any file to S3 from an instance but the bash script wasn't functioning. ### Need help with this!!!
 
 ## Bonus
-Encrypt the bucket 
+Encrypted the bucket using server_side_encryption with kms key
 
 ## Extra Bonus point
-Use a backend to manage the state file (we will cover this in class)
+Crreated an s3  backend to manage the state file. Encountered a liitle problem when creating the s3 backend. I Initially, I didn't know the s3 bucket to be used for the backend has to be existing before the backend can be created. 
+* Resolved the problem by searching online.
 
-## Push your code to your branch once you are done 
-* `git add .`  
-* `git commit -m <"commit message">`
-* `git push --set-upstream origin <name of the branch>` 
